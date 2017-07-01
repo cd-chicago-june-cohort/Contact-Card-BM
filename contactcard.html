@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="contactcard.js"></script></script>
+    <title>Contact Card</title>
+  </head>
+  <body>
+      <div = "container">
+          <div id="leftSide" class="col-md-6">
+              <div id="cardInfoEnter">
+                <h1 class="header">Contact Card Info</h1>
+                <form id="form" action="" method="" class="form">
+                
+                    <label for="firstName">First Name: </label>
+                    <input name="firstName" class="box" id="firstName" type="text" required>
+                
+
+                    <label for="lastName">Last Name: </label>
+                    <input name="lastName" class="box" id="lastName" type="text" required>
+                   
+                   <p>Description</p>
+                    <textarea name="description" id="description" type="textarea" class="box" required></textarea>
+
+                    <input type="submit" id="submit" value="Add Contact">
+                </form>
+              </div>
+          </div>
+          <div id="rightSide" class="col-md-6">
+              
+          </div>
+      </div>
+  </body>
+</html>
