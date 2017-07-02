@@ -9,11 +9,11 @@
 
 #cardInfoEnter {
     text-align: center;
-    width: 700px;
+    width: 100%;
     margin: auto;
     display: block;
     padding: 0px;
-    border: 4px solid black;
+    border: 2px solid black;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#353131), to(#c9c3c3));
     background-image: -webkit-linear-gradient(top, #353131, #c9c3c3);
     background-image: -moz-linear-gradient(top, #353131, #c9c3c3);
@@ -21,8 +21,36 @@
 
 }
 
+
+
+.XXX {
+    display: block;
+    margin: 10px;
+    font-size: 1.4em;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+label {
+    vertical-align: top;
+}
+
+span {
+    display: inline;
+}
+
+.box {
+    display: inline;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
 .header {
     color: white;
+}
+
+#leftSide {
+    padding-top: 10px;
 }
 
 #leftSide p {
@@ -33,6 +61,7 @@
 
 #rightSide {
     text-align: center;
+    padding-top: 10px;
     /*border: 2px solid black;*/
 }
 
@@ -46,6 +75,11 @@
 
 #submit {
     margin: auto;
+    margin-bottom: 20px;
+    width: 100px;
+    color: white;
+    background: black;
+    border-radius: 20px;
 }
 
 input {
@@ -60,7 +94,7 @@ input {
 }
 
 .contactBox {
-    width: 75%;
+    width: 100%;
     margin: auto;
     border: 2px solid black;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#353131), to(#c9c3c3));
