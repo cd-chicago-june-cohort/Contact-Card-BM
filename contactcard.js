@@ -4,6 +4,11 @@ function contactName (first, last) {
 
 $(document).ready(function() {
 console.log('NOW READY')
+
+    
+
+
+
     $('form').submit(function (ithappened) {
       ithappened.preventDefault();
     });
@@ -25,7 +30,7 @@ console.log('NOW READY')
     });
         
 
-
+    $('#form').slideDown(1500);
 
     console.log("bottom");
 

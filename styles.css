@@ -26,6 +26,7 @@
 .XXX {
     display: block;
     margin: 10px;
+    padding-right: 100px;
     font-size: 1.4em;
     vertical-align: top;
     margin-right: 40px;
@@ -111,4 +112,8 @@ input {
 
 .contactBox {
     margin-bottom: 10px;
+}
+
+#form {
+    display: none;
 }
